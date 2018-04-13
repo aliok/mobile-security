@@ -236,7 +236,7 @@
                     "spec": {
                         "containers": [{
                             "name": "api-server",
-                            "image": "docker.io/feedhenry/mobile-security:latest",
+                            "image": "docker.io/aliok/securirity-api-server",
                             "ports": [{
                                 "containerPort": 8080,
                                 "protocol": "TCP"

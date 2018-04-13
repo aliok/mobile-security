@@ -1,6 +1,7 @@
 const fs = require('fs');
 
 const keycloakConfigPath = process.env.KEYCLOAK_CONFIG_PATH || '/etc/secrets/keycloak/bearer_installation';
+// const keycloakConfigPath = '/home/aliok/Desktop/code-redhat/feedhenry/mobile-security/projects/api-server/config/keycloak.json';
 
 const config = {
   environment: process.env.NODE_ENV || 'dev',

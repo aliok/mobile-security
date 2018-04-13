@@ -1,8 +1,9 @@
 {
-  "realm": "secure-app",
-  "clientId": "api-server",
-  "bearerOnly": true,
-  "serverUrl": "http://localhost:9090/auth",
+  "realm": "project2",
+  "bearer-only": true,
+  "auth-server-url": "https://keycloak-project2.192.168.42.191.nip.io/auth",
   "ssl-required": "external",
-  "resource": "api-server"
+  "resource": "api-server",
+  "confidential-port": 0,
+  "disable-trust-manager" : true
 }

@@ -17,6 +17,8 @@ const memoryStore = new session.MemoryStore();
 mongoose.Promise = bluebird;
 mongoose.connect(config.mongo.url);
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
 app.use(helmet());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
